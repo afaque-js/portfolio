@@ -1,0 +1,16 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Configures Tailwind v4 to look for the "dark" class on the <html> element */
+@variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth crossfade when shifting between light and dark backgrounds */
+body {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
