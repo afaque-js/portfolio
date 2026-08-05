@@ -11,14 +11,14 @@ interface ProjectItem {
 
 const MY_PROJECTS: ProjectItem[] = [
   {
-    title: "E-Commerce Core Component Library",
+    title: "Admin Dashboard UI System",
     description: "A highly optimized, WCAG accessible-compliant UI system engineered with TypeScript and Tailwind. Features strict ARIA attributes and keyboard shortcuts.",
     tags: ["React", "TypeScript", "Tailwind CSS", "Storybook"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com"
   },
   {
-    title: "Real-Time Enterprise Analytics Dashboard",
+    title: "E-commerce Product Catalog & Checkout Flow",
     description: "A data-heavy analytical UI utilizing custom canvas integrations, client-side indexing frameworks, caching optimization mechanisms, and state persistence maps.",
     tags: ["React", "Zustand", "Recharts", "Vite"],
     liveUrl: "https://example.com",
